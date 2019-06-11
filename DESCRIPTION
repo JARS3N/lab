@@ -1,0 +1,9 @@
+Package: lab
+Title: lab functions
+Version: 0.0.0.9000
+Authors@R: person("Arsenault", "Jon", email = "jars3n@gmail.com", role = c("aut", "cre"))
+Description: dilutions,etc
+Depends: R (>= 3.5.1)
+License: none
+Encoding: UTF-8
+LazyData: true
