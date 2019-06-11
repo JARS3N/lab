@@ -27,7 +27,7 @@ function(c1 = NULL,
         message("3 numeric inputs of c1,v1,c2,v2 required")
         return(NULL)
     }
-    mising <- names(IN[!unlist(check_null)])
+    missing <- names(IN[!unlist(check_null)])
     
    out<- list("c1" = c2 * v2 * (v1 ^ -1),
          "v1" = c2 * v2 * (c1 ^ -1),
